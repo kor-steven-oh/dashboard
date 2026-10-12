@@ -31,3 +31,7 @@ ffmpeg -i /tmp/tahoe-light-original.mov \
 ffmpeg -i /tmp/tahoe-light-original.mov -frames:v 1 \
   -vf 'scale=1600:-2' -q:v 3 -update 1 assets/tahoe-light-poster.jpg
 ```
+
+## 글꼴
+
+모든 화면 텍스트는 [Pretendard](https://github.com/orioncactus/pretendard/tree/v1.3.9) v1.3.9 가변 폰트를 사용합니다. `assets/fonts/PretendardVariable.woff2`로 로컬 제공하며, 지원 굵기는 45–920입니다. 원본 SIL Open Font License 1.1과 저작권 고지는 `assets/fonts/OFL.txt`에 포함했습니다.

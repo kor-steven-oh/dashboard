@@ -8,7 +8,7 @@
 - [ver.1](ver.1.html): 삼성 블루를 포인트로 사용한 클래식 경영 대시보드
 - [ver.2](ver.2.html): Tahoe 파란 물결 영상과 Liquid Glass 소재를 적용한 대시보드
 
-HTML 파일을 브라우저에서 바로 열 수 있습니다. ver.2는 `assets/` 폴더를 같은 위치에 함께 두세요. 설치나 빌드 과정은 없습니다. 데스크톱 가로 1,180px 이상을 기준으로 제작했습니다.
+HTML 파일을 브라우저에서 바로 열 수 있습니다. 모든 버전에서 `assets/` 폴더를 같은 위치에 함께 두세요. 전체 글꼴은 로컬에 포함한 Pretendard 가변 폰트를 사용합니다. 설치나 빌드 과정은 없습니다. 데스크톱 가로 1,180px 이상을 기준으로 제작했습니다.
 
 로컬 서버로 확인하려면:
 
@@ -44,6 +44,7 @@ ver.2에는 유리 질감/불투명 패널 전환, 배경 영상 재생/일시�
 index.html                   기본 진입점, ver.2와 동일
 ver.1.html                   클래식 버전 (CSS·JS 내장)
 ver.2.html                   Liquid Glass 버전 (CSS·JS 내장)
+assets/fonts/                Pretendard 가변 폰트와 OFL 라이선스
 assets/tahoe-light-web.mp4    원본의 H.264 호환용 변환본
 assets/tahoe-light-poster.jpg 원본 영상의 첫 프레임
 sample.png                   사용자 제공 레이아웃 참고 이미지
